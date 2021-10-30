@@ -3,4 +3,4 @@ from django.template.response import TemplateResponse
 # Create your views here.
 
 def index(request):
-  return render(request ,'index.html')
+  return 'Hello World'

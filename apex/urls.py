@@ -20,5 +20,5 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('apex.urls'))
+    path('', include('apexapi.urls'))
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) + static(settings.IMAGE_URL, document_root=settings.IMAGE_ROOT)
